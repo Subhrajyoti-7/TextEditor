@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Subhrajyoti-7/TextEditor/static/css/main.dc1a3e75.css",
+    "main.js": "/Subhrajyoti-7/TextEditor/static/js/main.20e360ad.js",
+    "static/js/787.d4aba7ab.chunk.js": "/Subhrajyoti-7/TextEditor/static/js/787.d4aba7ab.chunk.js",
+    "static/media/flowers.webp": "/Subhrajyoti-7/TextEditor/static/media/flowers.5bba86ce81f931b62c6c.webp",
+    "static/media/fruits.jpg": "/Subhrajyoti-7/TextEditor/static/media/fruits.b2fd30d58a40ee2e2166.jpg",
+    "static/media/nature.avif": "/Subhrajyoti-7/TextEditor/static/media/nature.17496714f36661e9ab1a.avif",
+    "index.html": "/Subhrajyoti-7/TextEditor/index.html",
+    "main.dc1a3e75.css.map": "/Subhrajyoti-7/TextEditor/static/css/main.dc1a3e75.css.map",
+    "main.20e360ad.js.map": "/Subhrajyoti-7/TextEditor/static/js/main.20e360ad.js.map",
+    "787.d4aba7ab.chunk.js.map": "/Subhrajyoti-7/TextEditor/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc1a3e75.css",
+    "static/js/main.20e360ad.js"
+  ]
+}
