@@ -1,4 +1,5 @@
 import './App.css';
+import './components/TC'
 import Card from './components/Card';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';

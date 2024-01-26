@@ -10,7 +10,7 @@ export default function TextForm(props) {
     }
     const clear = () => {
         setText('')
-        setCount('0')
+        // setCount('0')
     }
     const copy = () => {
         let cpy = document.getElementById("box")
@@ -23,16 +23,16 @@ export default function TextForm(props) {
     }
     const update = (event) => {
         setText(event.target.value)
-        let str = text.trim()
-        let len = str.split(/[ ]+/).length
-        setCount(len)
-        if(text === " "){
-            setCount('0')
-        }
+        // let str = text.trim()
+        // let len = str.split(/\s+/).length
+        // setCount(len)
+        // if (text === " ") {
+        //     setCount('0')
+        // }
     }
 
     const [text, setText] = useState('')
-    const [count, setCount] = useState('0')
+    // const [count, setCount] = useState('0')
 
     return (
         <div className="container" style={{ paddingLeft: '200px' }}>
@@ -45,7 +45,7 @@ export default function TextForm(props) {
             <div className="btn btn-primary mx-2" onClick={clear}>Clear</div>
             <div className="btn btn-primary mx-5" onClick={copy}>Copy</div>
             <div className="btn btn-primary mx-2" onClick={removeSpaces}>Remove Extra Spaces</div>
-            <div className={`count my-3 text-${props.mode === 'light' ? 'dark' : 'light'}`}>{count} words and {text.length} characters</div>
+            <div className={`count my-3 text-${props.mode === 'light' ? 'dark' : 'light'}`}>{text.split(/\s+/).filter((element) => { return element.length !== 0 }).length} words and {text.length} characters</div>
         </div>
     )
 }

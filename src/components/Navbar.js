@@ -1,5 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import darkMode from './images/dark_mode.png'
+import lightMode from './images/light_mode.png'
 import { Link } from 'react-router-dom'
 
 export default function Navbar(props) {
@@ -22,9 +24,8 @@ export default function Navbar(props) {
                         </ul>
 
                         {/* Theme */}
-                        <div className={`form-check form-switch text-${props.mode === 'light' ? 'dark' : 'light'}`}>
-                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={props.toggleMode} />
-                            <label className="form-check-label mx-3" htmlFor="flexSwitchCheckDefault">{props.mode} Mode</label>
+                        <div className="theme">
+                            {/* <img src={props.mode === 'dark' ? { darkMode } : { lightMode }} alt="" /> */}
                         </div>
 
                         {/*Search*/}

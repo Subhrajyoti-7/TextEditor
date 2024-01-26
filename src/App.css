@@ -19,3 +19,12 @@ body{
     left: 82vw;
     top: 3vh;
 }
+
+.theme{
+    width: 30px;
+    height: 30px;
+}
+.theme img{
+    width: 30px;
+    height: 30px;
+}
