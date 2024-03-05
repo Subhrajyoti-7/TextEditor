@@ -13,9 +13,7 @@ export default function TextForm(props) {
         // setCount('0')
     }
     const copy = () => {
-        let cpy = document.getElementById("box")
-        cpy.select()
-        navigator.clipboard.writeText(cpy.value)
+        navigator.clipboard.writeText(text)
     }
     const removeSpaces = () => {
         let newText = text.split(/[ ]+/)
